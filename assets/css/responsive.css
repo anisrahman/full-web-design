@@ -1,0 +1,46 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+ 
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+ .home-area .card img {
+    	display:none;
+    }
+    .footer-header h2 {
+        font-size: 16px;
+    }
+    
+    header {
+        display: none;
+    }
+    
+    .carousel-caption {
+    top: 8%;
+    }
+    .carousel-caption p{
+        font-size: 17px;
+    }
+    .carousel-caption h1 {
+    font-size: 22px;
+    }
+    .carousel-caption .btn {
+    font-size: 13px;
+    }
+    
+ 
+    
+}
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+    header{
+        display: none;
+    }
+}

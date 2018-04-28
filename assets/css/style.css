@@ -1,0 +1,816 @@
+/*header start here*/
+
+header .social-icon{padding:0px;margin:0px;}
+header .social-icon a{display:inline-block;color:#fff;font-size:15px;padding:5px;}
+header .acount-icon a{display:block;color:#fff;font-size:15px;padding:5px;text-decoration:none;}
+header .acount-icon .fa{margin-right:20px;}
+
+
+header .left-header ul {
+	font-size: 10px;
+	list-style-type: none;
+	color: #7F8C8D;
+    margin-right: 25px;
+} 
+
+header .left-header ul.social {
+	list-style: none;
+	display: inline;
+	margin-left:0 !important;
+	padding: 0;
+}
+.header .left-header ul.social li {
+	display: inline;
+	margin: 0 5px;
+}
+.header .social li:hover {
+	transform: scale(1.15) rotate(360deg);
+	-webkit-transform: scale(1.1) rotate(360deg);
+	-moz-transform: scale(1.1) rotate(360deg);
+	-ms-transform: scale(1.1) rotate(360deg);
+	-o-transform: scale(1.1) rotate(360deg);
+}
+
+header .social a.icoRss:hover {
+	background-color: #F56505;
+}
+header .social a.icoFacebook:hover {
+	background-color:#3B5998;
+}
+header .social a.icoTwitter:hover {
+	background-color:#33ccff;
+}
+header .social a.icoGoogle:hover {
+	background-color:#BD3518;
+}
+header .social a.icoVimeo:hover {
+	background-color:#0590B8;
+}
+header .social a.icoLinkedin:hover {
+	background-color:#007bb7;
+}
+header .social a.icoRss:hover i, .myfooter .social a.icoFacebook:hover i, .myfooter .social a.icoTwitter:hover i,
+header .social a.icoGoogle:hover i, .myfooter .social a.icoVimeo:hover i, .myfooter .social a.icoLinkedin:hover i {
+	color:#fff;
+}
+a header .socialIcon:hover, header .socialHoverClass {
+	color:#44BCDD;
+}
+
+header .social-circle li a {
+	display:inline-block;
+	position:relative;
+	margin:0 auto 0 auto;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	text-align:center;
+	width: 40px;
+	height: auto;
+	font-size:16px;
+}
+header .social-circle li i {
+	margin:0;
+	line-height:30px;
+	text-align: center;
+}
+header{
+	background-color: #F8BB00;
+	padding: 20px 0;
+}
+header .fa {
+	color: white;
+	
+}
+
+.left-header ul li {
+	list-style:none;
+	float: left;
+}
+.right-header  ul li{
+	color: white;
+	list-style:none;
+	float: left;
+	font-size:18px;
+}
+.right-header  ul li a{
+    margin-top: -10px;
+}
+/*header end here*/
+
+/*nav start here*/
+.navbar {
+	z-index: 5000 !important;
+    background: rgba(14, 172, 180, 0.85) !important;
+    color: #fff;
+    border: none;
+    border-bottom: none;
+}
+
+
+
+.navbar-brand {
+    height: auto;
+    padding: 10px 10px;
+}
+.navbar-default .navbar-nav>li>a{
+	color:#fff;
+	font-weight: bold;
+	padding-top: 35px;
+}
+.navbar-default .navbar-nav li:hover a{
+	color:#f8bb00;
+}
+.navbar-default{
+	background-color: #fff;
+}
+/*nav end here*/
+
+
+/*----------------------Slider area-Start---------------*/
+
+
+.slider-area .item img {
+    background-size: cover;
+    width:100%;
+}
+
+.carousel-caption {
+    top: 30%;
+    left: 15%;
+    position: absolute;
+    text-align: left
+}
+.carousel-caption p{
+    font-size: 25px;
+}
+.carousel-caption h1 {
+    font-size: 60px;
+}
+.carousel-inner .change-text {
+    left: 50;
+    text-align: right
+}
+.carousel-caption .btn {
+    padding: 10px 20px;
+    background: #f8bb00;
+    border-radius: 50px;
+    font-size: 18px;
+}
+
+.carousel-caption .btn:hover {
+    background: #00b5bc;
+}
+.carousel-inner .change-text .btn {
+    color: #fff;
+}
+
+/*----------------------Slider area-End---------------*/
+
+
+/*----------------------home area-start---------------*/
+.home-area {
+    padding: 40px 0 0 0 ;
+    border-bottom: 1px solid #ddd;
+    clear: both;
+}
+.card-body .card-title {
+    font-size: 30px;
+    font-weight: normal;
+    padding: 15px 0
+    
+}
+.home-area .card {
+    border: none;
+}
+.home-area .card .card-body {
+    padding: 0;
+}
+.home-area .card .card-body img {
+    max-width: 100%;
+}
+.home-area .card-body .btn {
+    background: #00b5bc;
+    border-radius: 50px;
+    margin: 27px 0;
+    padding: 8px;
+    font-size: 18px;
+    border: none;
+}
+.home-area .card-body .btn:hover{
+    background: #f8bb00;
+    border: none;
+}
+.card-body .fa {
+    font-size: 25px;
+    color: #ffc000;
+    margin-right: 15px;
+}
+.card-body .fa a{
+    font-size: 18px;
+    color: #00b5bc;
+}
+/*----------------------home area-end---------------*/
+
+
+/*----------------------Services area-Start---------------*/
+
+.services-top-content {
+    padding: 30px 0;
+    font-size: 35px;
+    font-weight: normal;
+}
+
+
+.staff-meta .single-staff-list {
+    padding: 12px;
+    box-sizing: border-box;
+    border-radius: 7px;
+    border: 1px solid #ddd;
+    margin-right: 20px; 
+}
+
+.staff-meta .single-staff-list:hover {
+    box-shadow: 0 0 55px #ddd;
+}
+.owl-carousel .owl-controls .owl-nav .owl-prev, .owl-carousel .owl-controls .owl-nav .owl-next, .owl-carousel .owl-controls .owl-dot  div{
+    color:white;
+    float: left;
+    position: relative;
+    display: block;
+    margin-left: 15px;
+    padding: 10px 10px;
+    margin: 20px 0 40px;
+    
+    
+    
+}
+
+.owl-carousel .owl-controls .owl-nav .owl-prev  {
+    margin-left: 5px;
+    background: #00a8a8;
+    margin-right: 10px;
+    border-radius: 7px;
+}
+.owl-carousel .owl-controls .owl-nav .owl-next {
+    background: #00a8a8;
+    border-radius: 7px;
+}
+.owl-carousel .owl-controls .owl-nav .owl-next:hover{
+    background: #fdb900;
+} 
+.owl-carousel .owl-controls .owl-nav .owl-prev:hover{
+    
+    background: #fdb900;
+}
+/*----------------------Services area-end---------------*/
+
+
+
+/*----------------------latest-works area-Start---------------*/
+.latest-works{
+    padding: 20px;
+    background: #f7f7f7;
+}
+
+.bottom-hover {
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    box-sizing: border-box;
+} 
+.latest-work-hover {
+    text-align: center;
+    padding: 25px 0 0 0;
+    font-size: 18px;
+}
+.bottom-hover {
+    transition:  .4s;
+}
+.bottom-hover:hover {
+    background-color: #fff;
+    color: #f8bb00;
+    box-shadow: 0 0 50px #ddd;
+}
+.latest-works .latest-top-content{
+    padding: 10px;
+}
+.latest-works .latest-top-content h2{
+    padding-bottom:18px;
+}
+.latest-top-content h2 {
+    font-size: 35px;
+}
+
+
+
+
+/* ---- isotope ---- */
+* { box-sizing: border-box; }
+
+body {
+  font-family: sans-serif;
+}
+
+/* ---- button ---- */
+
+.button {
+  display: inline-block;
+  padding: 10px 18px;
+  margin-bottom: 10px;
+  background: #EEE;
+  border: none;
+  border-radius: 7px;
+  background-image: linear-gradient( to bottom, hsla(0, 0%, 0%, 0), hsla(0, 0%, 0%, 0.2) );
+  color: #222;
+  font-family: sans-serif;
+  font-size: 16px;
+  text-shadow: 0 1px white;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #f8bb00;
+  text-shadow: 0 1px hsla(0, 0%, 100%, 0.5);
+  color: #222;
+}
+
+.button:active,
+.button.is-checked {
+  background-color: #00b5bc;
+}
+
+.button.is-checked {
+  color: white;
+  text-shadow: 0 -1px hsla(0, 0%, 0%, 0.8);
+}
+
+.button:active {
+  box-shadow: inset 0 1px 10px hsla(0, 0%, 0%, 0.8);
+}
+ 
+/* ---- button-group ---- */
+
+.button-group:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.button-group{
+    margin-left:8%;
+}
+
+.button-group .button {
+  float: left;
+  border-radius: 5px;
+  margin-left: 0;
+  margin-right: 3px;
+}
+
+
+/* ---- isotope ---- */
+
+.grid {
+  box-shadow: 0 0 25px #ddd;
+}
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/*----------------------latest-works area-end---------------*/
+
+
+
+
+/*----------------------What we do area-start---------------*/
+.what-we-do{
+    padding: 20px 0 60px;
+}
+.what-we-do h2{
+    padding: 20px 0 30px;
+    font-size: 35px;
+    font-weight: normal;
+}
+
+
+.what-we-do .card:hover {
+    box-shadow: 0 0 70px #ddd;
+    transition: .4s;
+}
+.card:hover .card-body h3{
+    color: #f8bb00;
+}
+.what-we-do .card-body .btn {
+    background: #00b5bc;
+    color: #fff;
+}
+
+.card-body .btn:hover{
+    background: #f8bb00;
+    border: 1px solid #f8bb00;
+    color: black;
+}
+
+.card {
+    padding: 10px;
+}
+
+/*----------------------What we do area-End---------------*/
+
+
+
+/*---------------------- Progress area Start---------------*/
+.progress-area {
+    padding: 30px 0;
+    background: #00b5bc;
+    text-align: center
+}
+
+.progress-area .fa {
+    font-size: 45px;
+    color: #fff;
+    text-align: center;
+    padding: 30px
+}
+
+.fact-content {
+    
+}
+
+.count {
+    color: #ffffff;
+    margin: 0px 0px 2px;
+}
+
+.fact-content p {
+    margin: 0px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: .5px;
+}
+
+/*---------------------- Progress area End---------------*/
+
+
+/*---------------------- Embedded us Today Start---------------*/
+.embeded-today-area{
+    background-image: url(../img/bangimg.jpg); 
+    width: 100%; 
+    background-size: cover;
+    padding: 60px 0;
+}
+.embeded-today-area h2 {
+    font-weight: normal;
+    color: #000000;
+}
+
+.embeded-today-area .btn {
+    background: #fff;
+    border-radius: 50px;
+    color: #000000;
+    padding: 10px;
+}
+.embeded-today-area .btn:hover{
+    background: #000000;
+    color: #f8bb00;
+}
+/*---------------------- Embedded us Today End---------------*/
+
+
+
+/*----------------------  Recent News Start---------------*/
+.recent-news-area {
+    padding: 25px 0 60px;
+}
+.recent-news-area h2{
+    font-weight: normal;
+    font-size: 35px;
+    padding-bottom: 25px;
+}
+
+
+.recent-news-area .card:hover{
+    box-shadow: 0 0 50px #ddd;
+    transition: all .4s;
+}
+.recent-news-area .card:hover h5{
+    color: #f8bb00;
+}
+/*----------------------  Recent News End---------------*/
+
+
+/*----------------------  Testimonials  area Start---------------*/
+.testimonials-area{
+    padding:40px;
+    background: #00b5bc;
+    color: #fff;
+}
+
+/* carousel */
+#quote-carousel {
+  padding: 0 10px 30px 10px;
+  margin-top: 30px;
+  text-align:center;
+}
+/* indicator position */
+#quote-carousel .carousel-indicators {
+  right: 50%;
+  top: auto;
+  bottom: -10px;
+  margin-right: -19px;
+}
+/* indicator color */
+#quote-carousel .carousel-indicators li {
+  background: #c0c0c0;
+}
+/* active indicator */
+#quote-carousel .carousel-indicators .active {
+  background: #333333;
+  height:10px;
+  width:10px;
+  margin-bottom:1px;
+}
+/* typography */
+.testimonials-area h2 {
+  margin-bottom: 15px;
+    color: #fff;
+    font-weight: normal;
+    font-size: 35px;
+}
+
+
+.testimonials-area h3 {
+  text-align:center;
+  margin-bottom: 20px;
+    color: #fff;
+    font-weight: normal;
+    font-size: 25px;
+    padding-top: 25px;
+}
+.testimonials-area p {
+  font-style:italic;
+}
+.testimonials-area img{
+    border-radius: 50%;
+}
+/* Testimonials  area End */
+
+
+  
+   
+/* myfooter */
+
+.footer-header{
+	background-color: #2c2f36;
+	color: #fff;
+	padding:20px 50px;
+}
+.footer-header .form-inline{
+	padding-top: 20px;
+}
+
+.footer-header .form-control{
+	border-radius:30px;
+	margin-right: 20px;
+	padding:0 50px;
+}
+
+.footer-header button{
+	background-color: #f8bb00;
+	color: #000;
+	padding:5px 30px;
+	border-radius:30px;
+	border: none;
+}
+.footer-header button:hover{
+	background-color: #425180;
+	color: #f8bb00;
+}
+.myfooter {
+    padding: 10px 0 20px 0;
+    background-color: #31343d;
+    color: #fff;
+}
+
+.myfooter .title-widget {
+	text-align: left;
+	color:#fff;
+	font-size: 25px;
+	font-weight: 300;
+	line-height: 1;
+	position: relative;
+	text-transform: uppercase;
+	font-family: 'Fjalla One', sans-serif;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 25px;
+	margin-left: 0;
+	padding-left: 28px;
+}
+
+.myfooter .title-widget::before {
+    background-color: #ea5644;
+    content: "";
+    height: 22px;
+    left: 0px;
+    position: absolute;
+    top: -2px;
+    width: 5px;
+}
+
+.myfooter .social-icon{padding:0px;margin:0px;}
+.myfooter .social-icon a{display:inline-block;color:#fff;font-size:25px;padding:5px;}
+.myfooter .acount-icon a{display:block;color:#fff;font-size:18px;padding:5px;text-decoration:none;}
+.myfooter .acount-icon .fa{margin-right:25px;}
+
+
+.myfooter .category a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 20px;
+    margin: 1px;
+    border-radius:4px;
+    margin-top: 6px;
+    background-color: black;
+    border: solid 1px #fff;
+}
+.myfooter ul {
+	font-size: 13px;
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+	margin-top: 15px;
+	color: #7F8C8D;
+}
+
+
+.myfooter .payment{margin:0px;padding:0px;list-style-type:none}
+.myfooter .payment li{list-style-type:none}
+.myfooter .payment li a {
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    float: left;
+    font-size: 25px;
+    padding: 10px 10px;
+}
+
+.myfooter ul.social {
+	list-style: none;
+	display: inline;
+	margin-left:0 !important;
+	padding: 0;
+}
+.myfooter ul.social li {
+	display: inline;
+	margin: 0 5px;
+}
+.myfooter .social li:hover {
+	transform: scale(1.15) rotate(360deg);
+	-webkit-transform: scale(1.1) rotate(360deg);
+	-moz-transform: scale(1.1) rotate(360deg);
+	-ms-transform: scale(1.1) rotate(360deg);
+	-o-transform: scale(1.1) rotate(360deg);
+}
+
+.myfooter .social a.icoRss:hover {
+	background-color: #F56505;
+}
+.myfooter .social a.icoFacebook:hover {
+	background-color:#3B5998;
+}
+.myfooter .social a.icoTwitter:hover {
+	background-color:#33ccff;
+}
+.myfooter .social a.icoGoogle:hover {
+	background-color:#BD3518;
+}
+.myfooter .social a.icoVimeo:hover {
+	background-color:#0590B8;
+}
+.myfooter .social a.icoLinkedin:hover {
+	background-color:#007bb7;
+}
+.myfooter .social a.icoRss:hover i, .myfooter .social a.icoFacebook:hover i, .myfooter .social a.icoTwitter:hover i,
+.myfooter .social a.icoGoogle:hover i, .myfooter .social a.icoVimeo:hover i, .myfooter .social a.icoLinkedin:hover i {
+	color:#fff;
+}
+a.myfooter .socialIcon:hover, .myfooter .socialHoverClass {
+	color:#44BCDD;
+}
+
+.myfooter .social-circle li a {
+	display:inline-block;
+	position:relative;
+	margin:0 auto 0 auto;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	text-align:center;
+	width: 50px;
+	height: 50px;
+	font-size:20px;
+}
+.myfooter .social-circle li i {
+	margin:0;
+	line-height:50px;
+	text-align: center;
+}
+
+.myfooter .social-circle li a:hover i, .triggeredHover {
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-ms--transform: rotate(360deg);
+	transform: rotate(360deg);
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	transition: all 0.2s;
+}
+.myfooter .social-circle i {
+	color: #fff;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	-ms-transition: all 0.8s;
+	transition: all 0.8s;
+}
+.myfooter .contact .fa{
+	color: #fff;
+	font-size: 15px;
+	padding:10px 10px;
+}
+.myfooter .contact{
+	color: #fff;
+	font-size: 15px;
+}
+.myfooter .form{
+	border-radius: 20px;
+}
+.myfooter .form button{
+	border-radius: 20px;
+	background-color: #f8bb00;
+	color: #000;
+	border: none;
+}
+.myfooter .form button:hover{
+	background-color: #425180;
+	color: #f8bb00;
+}
+
+.myfooter-bottom {
+	background: #2c2f36;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #fff;
+}
+.myfooter-bottom span {
+    color: red;
+    font-weight: 700;
+    
+}
+.myfooter-bottom p{
+	padding-top: 6px;
+}
+/*Cart start here*/
+
+#cart{
+	padding:60px 0;
+}
+#cart td{
+	padding:30px;
+}
+#cart .btn{
+	background-color: #f8bb00;
+	padding: 10px;
+	border: none;
+	border-radius: 20px;
+}
+#cart .btn:hover{
+	background-color: #425180;
+	color: #f8bb00;
+}
+/*Cart start here*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
